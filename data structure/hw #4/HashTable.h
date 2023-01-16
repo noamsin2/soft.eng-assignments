@@ -1,4 +1,3 @@
-//Author: Noam Karasso
 #include <conio.h>
 #include <math.h>
 #include "LinkedList.h"

@@ -1,4 +1,3 @@
-//Author: Noam Karasso
 #include "LinkedList.h"
 
 LinkedList* BuildNode(char* data) {

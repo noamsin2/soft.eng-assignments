@@ -1,4 +1,5 @@
 //Author: Noam Karasso
+//Score: 100
 #include "postfix.h"
 
 node* Left(node* root) 

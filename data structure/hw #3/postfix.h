@@ -1,4 +1,5 @@
 //Author: Noam Karasso
+//Score: 100
 #ifndef _POSTFIX
 #define _POSTFIX
 #include <stdio.h>

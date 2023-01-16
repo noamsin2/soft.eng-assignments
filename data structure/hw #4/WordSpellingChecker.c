@@ -1,4 +1,3 @@
-//Author: Noam Karasso
 #include "WordSpellingChecker.h"
 
 int isWordInDictionary(HashTable* dictionaryTable, char* word) {

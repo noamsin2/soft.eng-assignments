@@ -1,5 +1,4 @@
 #define _CRT_SECURE_NO_WARNINGS
-//Author: Noam Karasso
 #include "WordSpellingChecker.h"
 
 int parseWordsToTable(char* path, HashTable* ht);

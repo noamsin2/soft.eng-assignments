@@ -1,5 +1,5 @@
-//Author: Noam Karasso
 #include "HashTable.h"
+
 int constantStringHashFunction(char* str) {
 	//for every string return 3 and we assume the string is not null
 	return 3;
@@ -34,7 +34,6 @@ HashTable* initTable(int tableSize, int hashFunction) {
 	ourHash->cellsTaken = 0;
 	ourHash->numOfElements = 0;
 	return ourHash;
-	
 }
 int hash(char* str, HashTable* ht) {
 	int index;
@@ -94,7 +93,9 @@ int deleteElement(HashTable* ht, char* str) {
 		return 0;
 	int index = hash(str, ht);
 	LinkedList* chain = ht->hashTable[index].chain;//get the chain of elements for this index
-	if (DeleteElement(chain, str) == NULL)//if the delete node is the only one in the list
-		ht->hashTable[index].chain = NULL;
+	if ((ht->hashTable[index].chain = DeleteElement(chain, str)) == NULL) {//if the delete node is the only one in the list
+		ht->cellsTaken--;
+	}
+	ht->numOfElements--;
 	return 1;
 }

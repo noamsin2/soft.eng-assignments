@@ -1,6 +1,6 @@
 // Assignment: 5
 // Author: Noam Karasso
-// Score: 90, -10 points in part 1 not using recursion
+// Score: 90, -10 points in part_1 not using recursion
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>

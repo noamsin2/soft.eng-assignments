@@ -1,6 +1,6 @@
 # UNIT TEST
 # Author: Noam Karasso
-# Score: 100
+# Score: 98
 
 import unittest
 import bank as b
